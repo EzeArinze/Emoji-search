@@ -15,21 +15,23 @@ body {
 }
 
 .App {
+  max-width: 600px;
+  margin: 0 auto;
   text-align: center;
   padding: 20px;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 5vmin;
   color: #010135;
 }
 
 .search-input {
+  width: 90%;
   padding: 10px;
   padding-right: 30px;
   font-size: 16px;
-  width: 500px;
   margin-bottom: 20px;
   border-radius: 5px;
   border: none;
@@ -37,7 +39,7 @@ h1 {
 }
 
 .emojis {
-  width: 45%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -66,6 +68,7 @@ h1 {
   }
 }
 .search-container {
+  width: 90%;
   position: relative;
   display: inline-block;
 }
