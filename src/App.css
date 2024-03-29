@@ -77,8 +77,8 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 10px 20px;
-  transform: translate(3%, 0.5%);
+  padding: 9px 20px;
+  transform: translate(-13%, 3%);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -92,4 +92,49 @@ h1 {
 .icon {
   width: 18px;
   height: 18px;
+  color: #2c2c35;
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  .search-input {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-input {
+    width: 70%;
+  }
+
+  .search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 9px 18px;
+    transform: translate(-79%, 1%);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-input {
+    width: 78%;
+  }
+
+  .search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 9px 18px;
+    transform: translate(-29%, 1%);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 }
