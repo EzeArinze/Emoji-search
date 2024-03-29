@@ -77,21 +77,19 @@ h1 {
   position: absolute;
   top: 0;
   right: 0;
-  height: 66%;
-  padding: 5px 20px;
-  /* background-color: #a1a1a1; */
+  padding: 10px 20px;
+  transform: translate(3%, 0.5%);
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .search-button:hover {
-  background-color: #999; /* Example hover background color */
+  background-color: #adadad; /* Example hover background color */
   color: #fff;
 }
 
 .icon {
   width: 18px;
   height: 18px;
-  color: navyblue;
 }
